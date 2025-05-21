@@ -3,11 +3,15 @@
 	import aapl from '$lib/aapl.csv.js';
 </script>
 
-<hr />
+<svelte:head>
+	<title>Transforms - Svelteplot - Demos</title>
+</svelte:head>
+
+<h1>Transforms</h1>
 
 <h2>quantile</h2>
 
-<p>Cuantile normalized between 0 and 1</p>
+<p>Quantile normalized between 0 and 1</p>
 
 <Plot >
 	<RuleY data={[0,1]} />
