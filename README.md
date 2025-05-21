@@ -2,7 +2,7 @@
 
 Svelteplot demos
 
----
+Made using [svelteplot](https://svelteplot.dev/) . Check out this awesome library!
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
