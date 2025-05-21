@@ -24,7 +24,7 @@
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"svelte": "^5.0.0",
-		"svelteplot": "^0.2.4",
+		"svelteplot": "^0.2.5",
 		"vite": "^6.2.6",
 		"d3-dsv": "^3.0.1"
 	}
