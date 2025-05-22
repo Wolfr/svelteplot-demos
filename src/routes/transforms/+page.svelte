@@ -9,9 +9,9 @@
 
 <h1>Transforms</h1>
 
-<h2>quantile</h2>
+<h2>Quantile</h2>
 
-<p>Quantile normalized between 0 and 1</p>
+<p>Normalized between 0 and 1</p>
 
 <Plot >
 	<RuleY data={[0,1]} />

@@ -27,7 +27,6 @@
 	<title>Basics - Svelteplot - Demos</title>
 </svelte:head>
 
-
 <h1>Basics</h1>
 
 <h2>A horizontal bar chart</h2>

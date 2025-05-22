@@ -8,4 +8,4 @@
 
 <p>Please choose a menu item to continue.</p>
 
-<p><a href="https://github.com/Wolfr/svelteplot-demos">View repo</a></p>
+<p><a class="button" href="https://github.com/Wolfr/svelteplot-demos">View repo</a></p>
