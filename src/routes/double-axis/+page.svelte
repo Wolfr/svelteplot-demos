@@ -9,6 +9,10 @@
 9,10,22`, autoType);
 </script>
 
+<p>An attempt to work with 2 axes (on the left)</p>
+
+<p>TODO: Make drawing of what we want to achieve.</p>
+
 <Plot axes={0}>
 	<AxisX />
 

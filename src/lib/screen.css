@@ -42,3 +42,19 @@ a {
 a:hover {
     color: oklch(62.3% 0.214 259.815 / 0.8);
 }
+
+pre {
+    background: #EEE;
+    padding: 1em;
+    overflow: auto;
+}
+
+pre > code {
+    font-size: 85%;
+}
+
+p > code {
+    background: #EEE;
+    padding: 0.25rem;
+    border-radius: 2px;
+}

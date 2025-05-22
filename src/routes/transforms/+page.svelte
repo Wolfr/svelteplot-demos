@@ -9,6 +9,8 @@
 
 <h1>Transforms</h1>
 
+<p>See <a href="https://github.com/svelteplot/svelteplot/issues/10">#10</a>.</p>
+
 <h2>Quantile</h2>
 
 <p>Normalized between 0 and 1</p>

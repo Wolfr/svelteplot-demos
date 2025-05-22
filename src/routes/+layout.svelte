@@ -15,7 +15,14 @@
 			<nav>
 				<a href="/" class:selected={$page.url.pathname === '/'}>Intro</a>
 				<a href="/basics" class:selected={$page.url.pathname === '/basics'}>Basics</a>
+				<a href="/parsing-data" class:selected={$page.url.pathname === '/parsing-data'}>Parsing data</a>
 				<a href="/dot" class:selected={$page.url.pathname === '/dot'}>Dot</a>
+			</nav>
+
+			<h2>Reference</h2>
+
+			<nav>
+				<a href="/observable-colors" class:selected={$page.url.pathname === '/observable-colors'}>Observable colors</a>
 			</nav>
 
 			<h2>Work in progress (docs related)</h2>
@@ -26,7 +33,6 @@
 			<h2>Work in progress (own experiment related)</h2>
 			<nav>
 				<a href="/double-axis" class:selected={$page.url.pathname === '/double-axis'}>Double axis</a>
-				<a href="/observable-colors" class:selected={$page.url.pathname === '/observable-colors'}>Observable colors</a>
 			</nav>
 		</div>
 

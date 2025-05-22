@@ -18,6 +18,12 @@
 
 </script>
 
+<svelte:head>
+	<title>Observable colors - Svelteplot demos</title>
+</svelte:head>
+
+<h1>Observable colors</h1>
+
 <p>Here are the colors of observable10 in swatches:</p>
 
 <div class="swatch-list">

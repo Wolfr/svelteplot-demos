@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Dot - Svelteplot - Demos</title>
+	<title>Dot - Wolfr Svelteplot Demos</title>
 </svelte:head>
 
 <h1>Dot</h1>
