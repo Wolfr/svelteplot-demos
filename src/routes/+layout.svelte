@@ -15,6 +15,7 @@
 				<a href="/" class:selected={$page.url.pathname === '/'}>Intro</a>
 				<a href="/basics" class:selected={$page.url.pathname === '/basics'}>Basics</a>
 				<a href="/dot" class:selected={$page.url.pathname === '/dot'}>Dot</a>
+				<a href="/double-axis" class:selected={$page.url.pathname === '/double-axis'}>Double axis</a>
 				<a href="/transforms" class:selected={$page.url.pathname === '/transforms'}>Transforms</a>
 			</nav>
 		</div>
@@ -22,11 +23,23 @@
 		<main>
 			<slot />
 		</main>
+
+		<footer>
+			<p>An experiment to learn <a href="https://svelteplot.dev/">SveltePlot</a> by <a href="https://github.com/Wolfr">Wolfr</a></p>
+		</footer>
 	</div>
 </div>
 
 <style>
 
+		footer {
+				padding: 1rem;
+
+		}
+
+		footer a {
+				color: #777;
+		}
 
 		header {
 				margin: 0 auto;
