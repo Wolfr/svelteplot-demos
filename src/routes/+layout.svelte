@@ -14,6 +14,7 @@
 			<nav>
 				<a href="/" class:selected={$page.url.pathname === '/'}>Intro</a>
 				<a href="/basics" class:selected={$page.url.pathname === '/basics'}>Basics</a>
+				<a href="/dot" class:selected={$page.url.pathname === '/dot'}>Dot</a>
 				<a href="/transforms" class:selected={$page.url.pathname === '/transforms'}>Transforms</a>
 			</nav>
 		</div>
