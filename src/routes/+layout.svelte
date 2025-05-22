@@ -11,23 +11,33 @@
 	<div class="container">
 
 		<div class="nav-container">
+			<h2>Basics</h2>
 			<nav>
 				<a href="/" class:selected={$page.url.pathname === '/'}>Intro</a>
 				<a href="/basics" class:selected={$page.url.pathname === '/basics'}>Basics</a>
 				<a href="/dot" class:selected={$page.url.pathname === '/dot'}>Dot</a>
-				<a href="/double-axis" class:selected={$page.url.pathname === '/double-axis'}>Double axis</a>
+			</nav>
+
+			<h2>Work in progress (docs related)</h2>
+			<nav>
 				<a href="/transforms" class:selected={$page.url.pathname === '/transforms'}>Transforms</a>
+			</nav>
+
+			<h2>Work in progress (own experiment related)</h2>
+			<nav>
+				<a href="/double-axis" class:selected={$page.url.pathname === '/double-axis'}>Double axis</a>
+				<a href="/observable-colors" class:selected={$page.url.pathname === '/observable-colors'}>Observable colors</a>
 			</nav>
 		</div>
 
 		<main>
 			<slot />
 		</main>
-
-		<footer>
-			<p>An experiment to learn <a href="https://svelteplot.dev/">SveltePlot</a> by <a href="https://github.com/Wolfr">Wolfr</a></p>
-		</footer>
 	</div>
+
+	<footer>
+		<p>An experiment to learn <a href="https://svelteplot.dev/">SveltePlot</a> and the <a href="https://vita.had.co.nz/papers/layered-grammar.pdf">layered grammar of graphics</a> by <a href="https://github.com/Wolfr">Wolfr</a>. See <a href="https://github.com/Wolfr/svelteplot-demos">Github repo</a> for code.</p>
+	</footer>
 </div>
 
 <style>
@@ -46,14 +56,13 @@
 				padding: 1rem 2rem;
 				width: 100%;
         background: #FFF;
-		}
+        border: 0;
+        border-bottom: 1px solid #CCC;
+    }
 
 		@media (min-width: 960px) {
 				header {
 						padding: .5rem 2rem;
-						border: 1px solid black;
-						border-bottom: none;
-						border-top: none;
 				}
 		}
 
@@ -67,8 +76,6 @@
     }
 
 		.container {
-				border: 1px solid #000;
-        border-bottom: none;
         max-width: 1280px;
 				margin: 0 auto;
         width: 100%;
@@ -97,16 +104,14 @@
     }
 
 		.nav-container {
-
-				width: 12rem;
 				padding: 1.5rem;
-				width: 100%;
-        border: 1px solid black;
-        border-width: 0 0 1px 0;
+        border-right: 1px solid #CCC;
         background: #FFF;
     }
 
-
+		.nav-container h2 {
+				font-size: 1rem;
+		}
 
     @media (min-width: 960px) {
         .nav-container nav {

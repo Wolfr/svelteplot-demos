@@ -34,3 +34,11 @@ body > div > .main-flex-container {
 h1, h2, h3, h4 {
     color: #000;
 }
+
+a {
+    color: oklch(62.3% 0.214 259.815);
+}
+
+a:hover {
+    color: oklch(62.3% 0.214 259.815 / 0.8);
+}
