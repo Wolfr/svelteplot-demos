@@ -1,3 +1,6 @@
+<script>
+	import Button from '$lib/Button.svelte'
+</script>
 <svelte:head>
 	<title>Svelteplot - Demos</title>
 </svelte:head>
@@ -8,4 +11,6 @@
 
 <p>Please choose a menu item to continue.</p>
 
-<p><a class="button" href="https://github.com/Wolfr/svelteplot-demos">View repo</a></p>
+<p>
+	<Button href="https://github.com/Wolfr/svelteplot-demos">View repo</Button>
+</p>

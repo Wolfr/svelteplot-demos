@@ -1,0 +1,36 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Svelte thing to have an extra div */
+body > div {
+    height: 100%;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    background: #EEE;
+    color: #333;
+}
+
+body > div > .main-flex-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+}

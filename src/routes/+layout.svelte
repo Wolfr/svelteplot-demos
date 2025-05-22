@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import '$lib/screen.css'
 </script>
 
 <div class="main-flex-container">
@@ -11,11 +12,11 @@
 
 		<div class="nav-container">
 			<nav>
+				<a href="/" class:selected={$page.url.pathname === '/'}>Intro</a>
 				<a href="/basics" class:selected={$page.url.pathname === '/basics'}>Basics</a>
 				<a href="/transforms" class:selected={$page.url.pathname === '/transforms'}>Transforms</a>
 			</nav>
 		</div>
-
 
 		<main>
 			<slot />
@@ -25,38 +26,6 @@
 
 <style>
 
-    :global(*) {
-        box-sizing: border-box;
-    }
-
-    :global(html, body) {
-        margin: 0;
-        padding: 0;
-				height: 100%;
-    }
-
-    :global(body > div) {
-				height: 100%;
-    }
-
-    :global(body) {
-        font-family: sans-serif;
-        line-height: 1.5;
-				background: #EEE;
-        color: #333;
-    }
-
-		:global(body > div > .main-flex-container) {
-        display: flex;
-				height: 100%;
-        flex-direction: column;
-        max-width: 1280px;
-				margin: 0 auto;
-    }
-
-		:global(h1, h2, h3, h4) {
-        color: #000;
-    }
 
 		header {
 				margin: 0 auto;
@@ -154,14 +123,6 @@
         background-color: #eee;
 				color: #000;
     }
-
-    :global(.button) {
-				text-decoration: none;
-				background: #DDD;
-				padding: .75rem 1rem;
-				border-radius: 4px;
-				color: #000;
-		}
 
 
 
